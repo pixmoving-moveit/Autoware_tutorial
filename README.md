@@ -134,6 +134,7 @@ rosbag record -a
 ## How to generate map and waypoints
 * Load simulation rosbag file, play and pause.
 * Change rosbag topic name to /points_raw
+* The demo.rosbag can be used here for following tutorial. 
 
 The above two step can be done with the following commands:
 
