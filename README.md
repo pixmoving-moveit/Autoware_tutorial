@@ -52,6 +52,8 @@ The Chinese police gesture detection by camera performance is not excellent due 
 
 More information is shown in  [Police gestures dataset and detection](https://github.com/pixmoving-moveit/traffic-gesture-recognition)  
 
+[Chinese Traffic Gesture Dataset(CTGD)](https://github.com/pixmoving-moveit/traffic-gesture-recognition/tree/master/traffic_gesture_recognition/datasets)
+
 ## MOVE-IT HACKATHON open source code links
 [pixmoving-moveit](https://github.com/pixmoving-moveit)
 
@@ -134,7 +136,7 @@ rosbag record -a
 ## How to generate map and waypoints
 * Load simulation rosbag file, play and pause.
 * Change rosbag topic name to /points_raw
-* The demo.rosbag can be used here for following tutorial. 
+* The demo.rosbag can be used here for following tutorial.
 
 The above two step can be done with the following commands:
 
