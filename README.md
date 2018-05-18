@@ -159,7 +159,18 @@ rosbag play -r 0.7 bag_name.bag /filtered_points:=/points_raw
 * waypoint_maker | waypoint_saver
 * Run whole simulation rosbag
 * Output pcb
+
+![](./images/pcb1.png)
+
+![](./images/pcb2.png)
 * Save waypoints
+
+![](./images/wp1.png)
+![](./images/wp_tf.png)
+![](./images/wp_map.png)
+![](./images/wp_sensing.png)
+![](./images/wp_computing.png)
+
 * The Velodyne default topic name is velodyne_points.
 * The downsample rosbag default topic name is filtered_points/
 * Please confirm voxel_grid_filter and ROSBAG Record topic name agree with rosbag playing.
@@ -178,19 +189,20 @@ rosbag play -r 0.7 bag_name.bag /filtered_points:=/points_raw
  * Make sure active vel_pose_connect in Simulation Mode.
  * Make sure waypoint_follower is waypoint.
 
-![](./images/sim1.png)
+![](./images/sim_computing.png)
 ![](./images/sim2.png)
 
 ## How to make self-driving car follow waypoints
 * Make sure deactive vel_pose_connect Simulate Mode.
 * Make sure deactive waypoint_follower | wf_simulator.
 
-![](./images/follow1.png)
+![](./images/follow_1.png)
 
 ## How to detect obstacle with Lidar
 * Make sure velocity_set | Points_topics is points_no_ground.
 
-![](./images/obstacle.png)
+![](./images/obstacle_1.png)
+![](./images/obstacle_2.png)
 
 ## Topics in the future
 ### Autoware Lidar obstacle detection failure on upslope.
